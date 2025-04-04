@@ -1,10 +1,11 @@
-First_Name = input("Enter Your First Name: ");
-Middle_Name = input("Enter Your Middle Name: ");
-Last_Name = input("Enter Your Last Name: ");
+Name = input("Enter Your Name: ");
+
+Std = int(input("Enter Your STD: "));
+
+div = input("Enter Your Division: ")
 
 Roll_No = int(input("Enter Your Roll No: "));
 
-Address = input("Enter Your Address: ");
 
 Maths = float(input("Enter Your Maths Marks: "));
 English = float(input("Enter Your English Marks: "));
@@ -17,22 +18,22 @@ Total = 500;
 
 Percentage = (Marks*100)/Total;
 
-print("\n********************");
-print("Marksheet of Student");
-print("********************\n");
+print("\n__________________________________");
+print("-------Marksheet of Student--------");
+print("__________________________________");
+print("__________________________________\n");
 
-print("First_Name: ",First_Name);
-print("Middle_Name: ",Middle_Name);
-print("Middle_Name: ",Last_Name);
-print("Roll No: ", Roll_No);
-print("Address: ", Address);
-
-print("Maths Marks: ", Maths);
-print("English Marks: ", English);
-print("Science Marks: ", Science);
-print("Geography Marks: ", Geography);
-print("History Marks: ", History);
-
-print("Marks: ", Marks);
-print("Total: ", Total);
-print("Percentage: ", Percentage,"%");
+print("Name:",Name, " Std:",Std);
+print("Div :",div,"    Roll No:", Roll_No);
+print("__________________________________");
+print("Subjects:       ","Marks:");
+print("Maths Marks:    ", Maths);
+print("English Marks:  ", English);
+print("Science Marks:  ", Science);
+print("Geography Marks:", Geography);
+print("History Marks:  ", History);
+print("__________________________________");
+print("Marks: ", Marks," Total: ", Total);
+print("__________________________________");
+print("Percentage:     ", Percentage,"%");
+print("__________________________________");
